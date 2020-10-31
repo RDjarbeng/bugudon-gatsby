@@ -3,8 +3,12 @@ import App from "../components/App";
 
 export default function Home() {
   return (
-    <div>
-      Hello world!
-       <App />
-    </div>)
+    <Layout>
+      <div>
+        Welcome Home
+         <App />
+      </div>
+    </Layout>
+  )
+  
 }

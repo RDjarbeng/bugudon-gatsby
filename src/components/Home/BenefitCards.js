@@ -1,21 +1,8 @@
 import React from 'react';
-
 import Carousel from 'react-bootstrap/Carousel';
-
-
 import postlist from '../../contentJSON/pages.json'
 
-
-
 export default function BenefitCards() {
-  /* 
-  fetch(test).then((response) => response.text()).then((text) => {
-    console.log(text.title);
-    setMd(text);
-
-  })
-   */
-  console.log(postlist);  
     return(
         <div className="row mt-2 mb-3">
           <div className="col-md-4 pl-0 pr-0">
