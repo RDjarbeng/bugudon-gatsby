@@ -1,12 +1,14 @@
 import React from "react";
-import App from "../components/App";
+import Layout from '../components/layout'
+// import App from "../components/App";
+// import Home from "../components/Home/Home";
 
 export default function Home() {
   return (
     <Layout>
       <div>
         Welcome Home
-         <App />
+         {/* <Home /> */}
       </div>
     </Layout>
   )

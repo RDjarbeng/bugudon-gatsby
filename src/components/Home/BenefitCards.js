@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import postlist from '../../contentJSON/pages.json'
 
 export default function BenefitCards() {
     return(

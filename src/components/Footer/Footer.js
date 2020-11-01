@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from 'react-router-dom';
+import {Link } from 'gatsby';
 
 export default function Footer(){
     return(
@@ -66,11 +66,8 @@ export default function Footer(){
       </p>
     </div>
     <span className="back-to-top"><i className="icofont-simple-up"></i></span>
-  </footer>
-
-  
-
- );
+      </footer>
+    );
 }
 
 
