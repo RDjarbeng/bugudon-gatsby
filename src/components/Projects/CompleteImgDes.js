@@ -6,7 +6,7 @@ export default function CompleteImgDes(){
     return(
       <React.Fragment>  
         <ProjectDescrip 
-            img_src = "static/img/jonny-caspari-1je5j4aN2RI-unsplash.jpg"
+          img_src="/img/jonny-caspari-1je5j4aN2RI-unsplash.jpg"
             topic ="Bugudon Gold Mine - Awaham Project"
             description = {<React.Fragment><p className="text-justify" style={{lineHeight: 1.1}}>The proposed project
             will be on the firm’s 8.44Km2 concession at Awaham in the West Akim
@@ -39,7 +39,7 @@ export default function CompleteImgDes(){
 
 
         <ProjectDescrip
-           img_src="static/img/industry-2023592_1280.jpg"
+           img_src="/img/industry-2023592_1280.jpg"
            topic="Bugudon 2 Gold Mine - Wamase Project"
            description ={
             <React.Fragment>     
@@ -77,7 +77,7 @@ export default function CompleteImgDes(){
 
 
         <ProjectDescrip 
-            img_src="static/img/excavators-1050501_1280.jpg"
+            img_src="/img/excavators-1050501_1280.jpg"
             topic="Wenof Gold Mine – Yamfuri Project"
             description = {
                 <React.Fragment>

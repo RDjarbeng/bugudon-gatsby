@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LeadersData = [
     {
-        img_src : "static/img/leadership.png",
+        img_src : "/img/leadership.png",
         name :"Chief Executive Officer - Kwame Dzadey Jnr (68 years)",
         description : 
             <React.Fragment>
@@ -22,7 +22,7 @@ export const LeadersData = [
             </React.Fragment>
     },
     {
-        img_src : "static/img/leadership.png",
+        img_src : "/img/leadership.png",
         name :"General Advisor - Christopher Dewornu (75 years)",
         description : 
             <React.Fragment>
@@ -36,7 +36,7 @@ export const LeadersData = [
             </React.Fragment>
     },
     {
-        img_src : "static/img/leadership.png",
+        img_src : "/img/leadership.png",
         name :"General Manager - Elike Atsu (38 years)",
         description : 
             <React.Fragment>
@@ -53,7 +53,7 @@ export const LeadersData = [
             </React.Fragment>
     },
     {
-        img_src : "static/img/leadership.png",
+        img_src : "/img/leadership.png",
         name :"Company Secretary - Paul Dzadey (60 years)",
         description : 
             <React.Fragment>

@@ -1,13 +1,10 @@
 import React from 'react';
-import investors from '../../contentJSON/homeInvestors.json'
-import ReactMarkdownWithHtml from "react-markdown/with-html";
-
 
 export default function InvestorBody() {
     return(
         <div className="row pb-3">
             <div className="col-md-6 h-100 pb-3">
-                <img src="static/img/business-163464_1280.jpg" className="shadow img-fuid rounded" alt="investors" style={{height: '85%',width : '100%'}} />
+                <img src="/img/business-163464_1280.jpg" className="shadow img-fuid rounded" alt="investors" style={{height: '85%',width : '100%'}} />
             </div>
             <div className="col-md-6 shadow h-100">
                 <h4 className="font-weight-bold">Investors</h4>
@@ -39,7 +36,7 @@ entities that will ensure ready demand for all minerals to be produced.
 Interest entities can send emails to offtakers@bugudon.com
         </div>
         <div className="col-md-6 h-100">
-                <img src="static/img/Hnet-image (4).gif" className="shadow img-fluid rounded" alt="investors" style={{height: '85%',width: '100%'}} />
+                <img src="/img/Hnet-image (4).gif" className="shadow img-fluid rounded" alt="investors" style={{height: '85%',width: '100%'}} />
         </div>
      </div>
     );

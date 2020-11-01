@@ -14,7 +14,7 @@ export default function VisionAndMission(){
                   title="VISION AND MISSION"
                />
             </div>
-            <div className="container-fluid pl-0 pr-0" style={{paddingTop:100, paddingBottom:100,backgroundImage:"url('static/img/dominik-vanyi-Mk2ls9UBO2E-unsplash.jpg')", backgroundSize:'cover'}}>
+            <div className="container-fluid pl-0 pr-0" style={{paddingTop:100, paddingBottom:100,backgroundImage:"url('/img/dominik-vanyi-Mk2ls9UBO2E-unsplash.jpg')", backgroundSize:'cover'}}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-4">

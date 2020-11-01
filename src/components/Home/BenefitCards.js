@@ -10,14 +10,14 @@ export default function BenefitCards() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="static/img/virgyl-sowah-E9NPWGBXM9o-unsplash.jpg"
+                    src="/img/virgyl-sowah-E9NPWGBXM9o-unsplash.jpg"
                     alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="static/img/host_community.png"
+                    src="img/host_community.png"
                     alt="First slide"
                     />
                 </Carousel.Item>
@@ -39,7 +39,7 @@ export default function BenefitCards() {
           </div>
           <div className="col-md-4 zero-pr">
             <div className="shadow card h-100 border-0">
-              <img className="card-img-top" src="static/img/ghana.png" alt="Card cap" style={{height:200}} />
+              <img className="card-img-top" src="img/ghana.png" alt="Card cap" style={{height:200}} />
               <div className="card-body pl-2 pr-2 pt-0">
                 <h5 className="card-title text-center font-weight-bold mb-0">Host Government</h5>
                 <div className="card-text mb-0"><ol className="pl-3 text-justify list-div pt-0 ">
@@ -57,14 +57,14 @@ export default function BenefitCards() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="static/img/internal_stakeholders.png"
+                    src="/img/internal_stakeholders.png"
                     alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="static/img/paddle-wheel-1051962_1280.jpg"
+                    src="/img/paddle-wheel-1051962_1280.jpg"
                     alt="First slide"
                     />
                 </Carousel.Item>

@@ -13,13 +13,13 @@ export default function Carousel(){
             </ol>
             <div className="carousel-inner img-hidden">
                 <div className="carousel-item active">
-                <img src="static/img/dominik-vanyi-1HEDPbH6HIE-unsplashsmaller1.png" className="img-fluid w-100" alt="..." />
+                <img src="/img/dominik-vanyi-1HEDPbH6HIE-unsplashsmaller1.png" className="img-fluid w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                <img src="static/img/hasin-hayder-974UGD5ov44-unsplash.jpg" className="img-fluid w-100" alt="..." />
+                <img src="/img/hasin-hayder-974UGD5ov44-unsplash.jpg" className="img-fluid w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                <img src="static/img/dominik-vanyi-Mk2ls9UBO2E-unsplashsmaller.jpg" className="d-block w-100" alt="..." />
+                <img src="/img/dominik-vanyi-Mk2ls9UBO2E-unsplashsmaller.jpg" className="d-block w-100" alt="..." />
                 </div>
             </div>
             <a className="carousel-control-prev mt-3" href="#carouselExampleFade" role="button" data-slide="prev">

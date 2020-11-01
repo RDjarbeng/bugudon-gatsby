@@ -11,9 +11,9 @@ export default function Contact(){
     return(
       <React.Fragment>  
         <Carousels 
-          source1="static/img/contact_1.png"
-          source2="static/img/mining-440743_1280smaller.jpg"
-          source3="static/img/paddle-wheel-1051962_1280smaller.png"
+          source1="/img/contact_1.png"
+          source2="/img/mining-440743_1280smaller.jpg"
+          source3="/img/paddle-wheel-1051962_1280smaller.png"
         />
          <div className="container pt-3">
            <SectionTitle title="CONTACT US"/>
