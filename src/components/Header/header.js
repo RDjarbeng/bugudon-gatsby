@@ -19,7 +19,7 @@ export default function Header(){
                         <Link to="/projects">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/investorsection">Investors {'&'} Off takers</Link>
+                        <Link to="/investors">Investors {'&'} Off takers</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/company">Company</Link>
