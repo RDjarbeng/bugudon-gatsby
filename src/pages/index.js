@@ -8,7 +8,6 @@ export default function Index() {
   return (
     <Layout>
       <div>
-        Welcome Home
          <Home />
       </div>
      </Layout>

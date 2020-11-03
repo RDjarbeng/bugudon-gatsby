@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import './App.css';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AOS from "aos";
+import AOS from "aos";//trying to implement aos
 
 
 const Layout = (props) => {
