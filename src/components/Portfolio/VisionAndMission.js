@@ -3,7 +3,6 @@ import AOS from "aos";
 import SectionTitle from '../Home/SectionTitle';
 
 // initialization
-AOS.init();
 
 
 export default function VisionAndMission(){
