@@ -24,7 +24,7 @@ export default function ProjectCards(props) {
               readLessText={"READ LESS"}
             >
               {/* The above clearly signifies, Bugudon Limited associated project concept is in line with the firm’s mission of progressively harnessing best philosophies, practices, tools, partnerships, and resources to grow the company’s mining and process capability. */}
-              {props.content[0].node.frontmatter.readMoreText}
+              {props.content[0].node.frontmatter.readMoreText || ' ' }
               </ReadMoreAndLess>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function ProjectCards(props) {
               readMoreText={"READ MORE"}
               readLessText={"READ LESS"}
             >
-              {props.content[1].node.frontmatter.readMoreText}
+              {props.content[1].node.frontmatter.readMoreText || ' '}
             </ReadMoreAndLess>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default function ProjectCards(props) {
               readLessText={"READ LESS"}
             >
               {/* The above clearly signifies, Bugudon Limited associated project concept is in line with the firm’s mission of progressively harnessing best philosophies, practices, tools, partnerships, and resources to grow the company’s mining and process capability. */}
-              {props.content[2].node.frontmatter.readMoreText}
+              {props.content[2].node.frontmatter.readMoreText || ' '}
             </ReadMoreAndLess>
           </div>
         </div>

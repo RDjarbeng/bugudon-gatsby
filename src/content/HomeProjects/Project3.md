@@ -1,4 +1,4 @@
-j---
+---
 title: Wenof Gold Mine – Moseaso Project
 readMoreText: The above clearly signifies, Bugudon Limited associated project
   concept is in line with the firm’s mission of progressively harnessing best
