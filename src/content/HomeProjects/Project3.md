@@ -5,7 +5,7 @@ readMoreText: The above clearly signifies, Bugudon Limited associated project
   philosophies, practices, tools, partnerships, and resources to grow the
   company’s mining and process capability.
 ---
-ecThe proposed project will be on the firm’s 31.89Km2 concession at <mark class="bg-warning">Moseaso,
+The proposed project will be on the firm’s 31.89Km2 concession at <mark class="bg-warning">Moseaso,
 Asankragwa</mark>, in the <mark class="bg-warning">Amenfi District Assembly</mark> of the Western Region of Ghana.
 The Concession has an independent geological report by SEMS Exploration,
 Ghana a member of the West African Consultancy group. The report is in
