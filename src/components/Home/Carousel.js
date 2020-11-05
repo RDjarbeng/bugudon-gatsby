@@ -16,7 +16,6 @@ export default function Carousels() {
   }
   `)
     const { image1, image2, image3, vision } = data.markdownRemark.frontmatter
-    console.log(image1, vision);
     return(
             <section id="intro">    
             <Carousel className="img-hidden">
