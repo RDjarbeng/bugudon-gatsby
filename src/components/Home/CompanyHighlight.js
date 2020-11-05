@@ -13,7 +13,9 @@ export default function CompanyHighlight(props){
                <div className="row text-center" style={{lineHeight: 1.1}}>
                   {highlightData.map((item) => {
                     return(  
-                     <Highlight key={item.heading} style={item.style} heading={item.heading} paragraph={item.paragraph} color={item.color} data_aos={item.data_aos}/>
+                        <Highlight key={item.heading} style={item.style} heading={item.heading} paragraph={item.paragraph} color={item.color}
+                        // data_aos={item.data_aos}
+                        />
                     );   
                     })}  
                </div>
