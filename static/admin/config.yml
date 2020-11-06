@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Home Page Carousel top (sliding images)"
         name: "homepage carousel"
-        file: "content/homeCarousel.md"
+        file: "src/content/homeCarousel.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "images"}
           - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
