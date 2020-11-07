@@ -1,5 +1,6 @@
 ---
 title: Off-takers
+helpText: This is also used in the investor page
 image: static/img/Hnet-image (4).gif
 ---
 Bugudon Limited is working with its partners to commence production
