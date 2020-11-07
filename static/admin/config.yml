@@ -30,14 +30,15 @@ collections:
       - {label: "Help Text", name: "helpText", widget: "string"}
       - {label: "Image", name: "image", widget: "image", default: "ghana.png"}
       - {label: "Body", name: "body", widget: "markdown"}    
-  # - name: "HomepageProjects" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Homepage Projects section" # Used in the UI
-  #   folder: "src/content/HomeProjects" # The path to the folder where the documents are stored
-  #   create: false # Allow users to create new documents in this collection
-  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Read More text", name: "readMoreText", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "HomepageProjects" # Used in routes, e.g., /admin/collections/blog
+    label: "Homepage Projects section" # Used in the UI
+    folder: "src/content/HomeProjects" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Read More text", name: "readMoreText", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   
