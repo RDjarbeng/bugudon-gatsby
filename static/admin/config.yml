@@ -20,15 +20,15 @@ collections:
           - {label: "Image Three", name: "image3", widget: "image", default: "ghana.png"}
           - {label: "Vision under images", name: "vision", widget: "string"}
       
-  - label: "Homepage Projects section" # Used in the UI
-    name: "HomepageProjects" # Used in routes, e.g., /admin/collections/blog
-    folder: "src/content/HomeProjects" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Read More text", name: "readMoreText", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "HomepageProjects" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Homepage Projects section" # Used in the UI
+  #   folder: "src/content/HomeProjects" # The path to the folder where the documents are stored
+  #   create: false # Allow users to create new documents in this collection
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Read More text", name: "readMoreText", widget: "string"}
+  #     - {label: "Body", name: "body", widget: "markdown"}
 
   # - name: "HomepageInvestors" # Used in routes, e.g., /admin/collections/blog
   #   label: "Homepage Investor section" # Used in the UI
