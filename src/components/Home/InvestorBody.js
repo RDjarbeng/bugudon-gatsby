@@ -1,23 +1,36 @@
 import React from 'react';
-
+import { graphql, useStaticQuery } from 'gatsby';
+import parse from 'html-react-parser';
 export default function InvestorBody() {
+    
+    const investors = useStaticQuery(graphql`
+      query{
+        investor: markdownRemark(fileAbsolutePath: {regex: "/content/HomeInvestors/investor/i"}) {
+            frontmatter {
+            title
+            image
+            }
+            html
+        }
+        offtaker: markdownRemark(fileAbsolutePath: {regex: "/content/HomeInvestors/offtaker/i"}) {
+            frontmatter {
+            title
+            image
+            }
+            html
+        }
+    }
+  `)
+    
+    
     return(
         <div className="row pb-3">
             <div className="col-md-6 h-100 pb-3">
-                <img src="/img/business-163464_1280.jpg" className="shadow img-fuid rounded" alt="investors" style={{height: '85%',width : '100%'}} />
+                <img src={investors.investor.frontmatter.image} className="shadow img-fuid rounded" alt="investors" style={{height: '85%',width : '100%'}} />
             </div>
             <div className="col-md-6 shadow h-100">
                 <h4 className="font-weight-bold">Investors</h4>
-                In line with the company’s mission of progressively harnessing the best philosophies,
-practices, tools, partnerships, and resources to grow the company’s mining and process
-capability, the proponents of Bugudon Limited are seeking investors in the various projects
-that the company is promoting.
-
-The company has the concession rights, and have further invested in some amount of geological
-works to establish economic quantities of gold on all concession. And for this reason, is
-seeking for investors to exploit the potential together.
-
-Interest entities can send emails to investors@bugudon.com
+                {parse(investors.investor.html)}
         </div>
         <div className="col-md-6 shadow h-100">
                 <h4 className="font-weight-bold">Off-takers</h4>

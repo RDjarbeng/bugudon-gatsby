@@ -2,6 +2,20 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function BenefitCards() {
+  const benefits = []
+  // benefits[0] = useStaticQuery(graphql`
+  //     query{
+  //       markdownRemark(fileAbsolutePath: {regex: "/content/HomeBenefits/benefit1/i"}) {
+  //           frontmatter {
+  //           title
+  //           image1
+  //           image2
+  //           }
+  //           html
+  //       }
+  // }
+  // `)
+  // console.log(benefits[0].markdownRemark.frontmatter.title);
     return(
         <div className="row mt-2 mb-3">
           <div className="col-md-4 pl-0 pr-0">
@@ -17,7 +31,7 @@ export default function BenefitCards() {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="img/host_community.png"
+                    src="/img/host_community.png"
                     alt="First slide"
                     />
                 </Carousel.Item>
@@ -72,7 +86,7 @@ export default function BenefitCards() {
               <div className="card-body pl-2 pr-2 pt-0">
                 <h5 className="card-title pt-0 text-center font-weight-bold mb-0">Internal Stakeholders</h5>
                 <div className="card-text mb-0"><ol className="pl-3 text-justify list-div pt-0">
-                  <li>The generation returns for the proponents of the company;</li>
+                  <li>The generation returns for the proponents of the company</li>
                   <li>The generation of work for both employee and vendor of the proposed project.</li>
                 </ol></div>
               </div>

@@ -1,3 +1,8 @@
+---
+title: Host Community
+image1: /img/virgyl-sowah-E9NPWGBXM9o-unsplash.jpg
+image2: /img/host_community.png
+---
 1. The creation of wealth within the local host community in terms of direct and indirect jobs
 
 2. Development of social amenities and infrastructure by Government, NGO’s,
