@@ -95,6 +95,6 @@ collections:
           - {label: "Heading 7", name: "heading7", widget: "string"}
           - {label: "Paragraph 7", name: "paragraph7", widget: "markdown"}
           - {label: "Heading 8 ", name: "heading8", widget: "string"}
-          - {label: "Paragraph 8 -Values" , name: "paragraph8", widget: "markdown"}
+          - {label: "Paragraph 8 - Values" , name: "paragraph8", widget: "markdown"}
           - {label: "Heading 9 ", name: "heading9", widget: "string"}
           - {label: "Paragraph 9" , name: "paragraph9", widget: "markdown"}
