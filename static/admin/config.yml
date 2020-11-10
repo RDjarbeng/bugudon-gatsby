@@ -72,16 +72,16 @@ collections:
           - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
           - {label: "Body", name: "body", widget: "markdown"}
 
-  - label: "Homepage highlights"
-    name: "highlights"
-    files:
-      - label: "Highlight"
-        name: "Highlight"
-        identifier_field: name
-        file: "src/content/highlightdata.json"
-        fields:
-          - {label: "Heading 1", name: "heading1", widget: "string"}
-          - {label: "Paragraph 1", name: "paragraph1", widget: "string"}
-          - {label: "Heading 2", name: "heading2", widget: "string"}
-          - {label: "Paragraph 2", name: "paragraph2", widget: "string"}
+  # - label: "Homepage highlights"
+  #   name: "highlights"
+  #   files:
+  #     - label: "Highlight"
+  #       name: "Highlight"
+  #       identifier_field: name
+  #       file: "src/content/highlightdata.json"
+  #       fields:
+  #         - {label: "Heading 1", name: "heading1", widget: "string"}
+  #         - {label: "Paragraph 1", name: "paragraph1", widget: "string"}
+  #         - {label: "Heading 2", name: "heading2", widget: "string"}
+  #         - {label: "Paragraph 2", name: "paragraph2", widget: "string"}
   
