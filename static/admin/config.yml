@@ -72,13 +72,16 @@ collections:
           - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
           - {label: "Body", name: "body", widget: "markdown"}
 
-      - label: "Home Page Benefit test"
-        name: "benefit"
-        file: "src/content/test.json"
+  - label: "Homepage highlights"
+    name: "highlights"
+    files:
+      - label: "Highlight"
+        name: "Highlight"
+        identifier_field: name
+        file: "src/content/highlightdata.json"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Test One", name: "test", widget: "string", default: "ghana.png"}
-          - {label: "Test Two", name: "test2", widget: "string", default: "ghana.png"}
-          # - {label: "Body", name: "body", widget: "markdown"}
-
+          - {label: "Heading 1", name: "heading1", widget: "string"}
+          - {label: "Paragraph 1", name: "paragraph1", widget: "string"}
+          - {label: "Heading 2", name: "heading2", widget: "string"}
+          - {label: "Paragraph 2", name: "paragraph2", widget: "string"}
   

@@ -1,11 +1,12 @@
 import React from 'react';
-
-export default function Highlight({style, heading, paragraph, color,data_aos}){
+import parse from 'html-react-parser'
+export default function Highlight({ style, heading, paragraph, color, data_aos }) {
+    console.log(paragraph);
     return(
         <div className="col-md-4 p-3">
             <div className=" shadow col h-100" style={style} data-aos={data_aos}> 
                 <h5 className="font-weight-bolder pt-2">{heading}</h5>
-                <p style={{color}} className="font-weight-bold">{paragraph}</p>
+                <p style={{ color }} className="font-weight-bold" dangerouslySetInnerHTML={{ __html: paragraph }}></p>
             </div>
         </div>
     );

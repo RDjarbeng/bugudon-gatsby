@@ -1,5 +1,103 @@
 import React from 'react';
+import data from '../../content/highlightData.json'
 
+export const highlightData = [
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopRightRadius: 100,
+            borderBottomRightRadius: 100,
+            verticalAlign: 'middle',
+        },
+        heading : data.heading1,
+        paragraph : data.paragraph1,
+        color: '#ff7315',
+        data_aos:"fade-up"
+    },
+    {
+        style:{
+            borderRadius:100,
+            backgroundColor:'#ff7315',
+        },
+        heading : data.heading2,
+        paragraph : data.paragraph2,
+        color: '#ffff',
+    },
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopLeftRadius: 100,
+            borderBottomLeftRadius: 100,
+        },
+        heading : data.heading3,
+        paragraph: data.paragraph3,
+        color: '#ff7315',
+        data_aos:"fade-up"
+    },
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopRightRadius: 100,
+            borderBottomRightRadius: 100,
+        },
+        heading: data.heading4,
+        paragraph: data.paragraph4,
+        color: '#ff7315',
+    },
+    {
+        style:{
+            backgroundColor:'#ff7315',
+            borderRadius:100,
+        },
+        heading: data.heading5,
+        paragraph: data.paragraph5,
+        color: '#ffff',
+        data_aos:"zoom-in"
+    },
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopLeftRadius: 100,
+            borderBottomLeftRadius: 100,
+        },
+        heading: data.heading6,
+        paragraph: data.paragraph6,
+        color: '#ff7315',
+    },
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopRightRadius: 100,
+            borderBottomRightRadius: 100,
+        },
+        heading: data.heading7,
+        paragraph: data.paragraph7,
+        color: '#ff7315',
+        data_aos:"fade-up"
+    },
+    {
+        style:{
+            borderRadius:100,
+            backgroundColor:'#ff7315',
+        },
+        heading: data.heading8,
+        paragraph: data.paragraph8,
+        color: '#ffff',
+    },
+    {
+        style:{
+            backgroundColor:'#f4f4f4',
+            borderTopLeftRadius: 100,
+            borderBottomLeftRadius: 100,
+        },
+        heading: data.heading9,
+        paragraph: data.paragraph9,
+        color: '#ff7315',
+        data_aos:"fade-up"
+    },
+];
+
+/*
 export const highlightData = [
     {
         style:{
@@ -95,3 +193,4 @@ export const highlightData = [
         data_aos:"fade-up"
     },
 ];
+ */
