@@ -72,4 +72,13 @@ collections:
           - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
           - {label: "Body", name: "body", widget: "markdown"}
 
+      - label: "Home Page Benefit test"
+        name: "benefit"
+        file: "src/content/test.json"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Test One", name: "test", widget: "string", default: "ghana.png"}
+          - {label: "Test Two", name: "test2", widget: "string", default: "ghana.png"}
+          # - {label: "Body", name: "body", widget: "markdown"}
+
   
