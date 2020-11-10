@@ -72,15 +72,13 @@ collections:
           - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
           - {label: "Body", name: "body", widget: "markdown"}
 
-  - label: "Home Pagetest"
-    name: "hometest"
+  - label: "Home Page Highlights"
+    name: "Highlights"
+    identifier_field: name
     files:
-      - label: "Home Page Carousel top (sliding images)"
-        name: "homepage carousel"
-        file: "src/content/homeCarousel.md"
+      - label: "Home Page Highlights"
+        name: "highlight"
+        file: "src/content/highlightData.json"
         fields:
-          - {label: "Title", name: "title", widget: "string", default: "images"}
-          - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
-          - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
-          - {label: "Image Three", name: "image3", widget: "image", default: "ghana.png"}
-          - {label: "Vision under images", name: "vision", widget: "string"}
+          - {label: "Heading 1", name: "heading1", widget: "string"}
+          - {label: "Paragraph 1", name: "paragraph1", widget: "string"}
