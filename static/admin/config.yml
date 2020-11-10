@@ -2,13 +2,15 @@ backend:
   name: git-gateway
   # repo: RDjarbeng/bugudon-gatsby
   branch: master # Branch to update (optional; defaults to master)
+# backend:
+#   name: test-repo
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 public_folder: "/img"
 
 
 collections:
-  - label: "Home Page"
-    name: "content"
+  - label: "Home Page Carousel"
+    name: "homeCarousel"
     files:
       - label: "Home Page Carousel top (sliding images)"
         name: "homepage carousel"
@@ -40,5 +42,34 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Read More text", name: "readMoreText", widget: "string"}
+
+  - label: "Home Page Benefits"
+    name: "benefits"
+    files:
+      - label: "Home Page Benefit 1"
+        name: "benefit1"
+        file: "src/content/homeBenefits/benefit1.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          
+      - label: "Home Page Benefit 2"
+        name: "benefit2"
+        file: "src/content/homeBenefits/benefit2.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - label: "Home Page Benefit 3"
+        name: "benefit3"
+        file: "src/content/homeBenefits/benefit3.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
+          - {label: "Body", name: "body", widget: "markdown"}
 
   

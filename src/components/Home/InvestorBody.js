@@ -22,34 +22,23 @@ export default function InvestorBody() {
     }
   `)
     
-    
     return(
         <div className="row pb-3">
+            {/* Investor section */}
             <div className="col-md-6 h-100 pb-3">
                 <img src={investors.investor.frontmatter.image} className="shadow img-fuid rounded" alt="investors" style={{height: '85%',width : '100%'}} />
             </div>
             <div className="col-md-6 shadow h-100">
-                <h4 className="font-weight-bold">Investors</h4>
+                <h4 className="font-weight-bold">{investors.investor.frontmatter.title}</h4>
                 {parse(investors.investor.html)}
-        </div>
+            </div>
+            {/* offtakers section */}
         <div className="col-md-6 shadow h-100">
-                <h4 className="font-weight-bold">Off-takers</h4>
-Bugudon Limited is working with its partners to commence production
-    of at least one of the minerals listed below on its project by first
-    (1st) quarter 2022.
-
-Projected mineral products are:
-
-1. Gold bars
-2. Ilmenite.
-
-The company is seeking potential off-taker arrangements from reputable
-entities that will ensure ready demand for all minerals to be produced.
-
-Interest entities can send emails to offtakers@bugudon.com
+                <h4 className="font-weight-bold">{investors.offtaker.frontmatter.heading}</h4>
+                {parse(investors.offtaker.html)}
         </div>
         <div className="col-md-6 h-100">
-                <img src="/img/Hnet-image (4).gif" className="shadow img-fluid rounded" alt="investors" style={{height: '85%',width: '100%'}} />
+                <img src={investors.offtaker.frontmatter.image} className="shadow img-fluid rounded" alt="investors" style={{height: '85%',width: '100%'}} />
         </div>
      </div>
     );

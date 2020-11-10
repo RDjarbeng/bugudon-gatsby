@@ -12,7 +12,7 @@ export default function Footer(){
             <h4>Links</h4>
             <ul>
               <li> <Link to="/projects">Projects</Link></li>
-              <li> <Link to="/investorsection">Investors & Off takers</Link></li>
+              <li> <Link to="/investors">Investors & Off takers</Link></li>
               <li> <Link to="/company">Company</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
               <li><Link to="/privacy">Privacy policy</Link></li>
@@ -62,7 +62,7 @@ export default function Footer(){
     </div>
     <div className="container-fluid p-0" style={{backgroundColor:'ash'}}>
       <p className="copyright mb-0">
-        &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved. Developed and maintained by <a href="https://sterde.com">Sterde</a>
+        &copy; Copyright {new Date().getFullYear()} <strong><span>Bugudon Ltd</span></strong>. All Rights Reserved. Developed and maintained by <a href="https://sterde.com">Sterde</a>
       </p>
     </div>
     <span className="back-to-top"><i className="icofont-simple-up"></i></span>

@@ -4,8 +4,6 @@ import parse from 'html-react-parser';//to parse the html correctly, dangerously
 // const ReactMarkdownWithHtml = require('react-markdown/with-html')
 
 export default function ProjectCards(props) {
-  // console.log(props.content[0].node.html);
-  console.log(props.content[2].node.html)
   return (
     <div className="row pt-2 pb-3">
       <div className="col-md-4">

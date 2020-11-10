@@ -8,7 +8,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 export default function ProjectSection() {
   const data = useStaticQuery(graphql`
       query{
-        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/content/HomeProjects/i" } }) {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/HomeProjects/i"}}, sort: {fields: frontmatter___title}) {
     edges {
       node {
          frontmatter {

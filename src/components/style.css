@@ -297,7 +297,7 @@ nav{
   font-family: 'Cormorant Garamond', serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu .active, .nav-menu li:hover > a {
   color: #fdb305;
   text-decoration: none;
 }

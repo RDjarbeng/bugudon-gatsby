@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 
-export default function Header(){
+export default function Header() {
     return(
         <header id="nav1" style={{height:40}}>
             <nav className="navbar navbar-expand-lg navbar-light bg-white p-0 nav-menu shadow">
@@ -12,20 +12,20 @@ export default function Header(){
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <Link className="navbar-brand p-0 mr-auto" to="/"> <img src="/img/logo.jpg" alt="logo" className="logo-img d-inline-block align-top"/></Link>
                     <ul className="navbar-nav  mt-2 mt-lg-0 mr-5" id="responsive-navbar-nav">
-                    <li className="nav-item active">
-                        <Link to="/">Home</Link>
+                    <li className="nav-item">
+                            <Link activeClassName="active" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/projects">Projects</Link>
+                            <Link to="/projects" activeClassName="active">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/investors">Investors {'&'} Off takers</Link>
+                            <Link to="/investors" activeClassName="active">Investors {'&'} Off takers</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/company">Company</Link>
+                            <Link to="/company" activeClassName="active">Company</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contact">Contact Us</Link>
+                            <Link to="/contact" activeClassName="active">Contact Us</Link>
                     </li>
                     </ul>
                 </div>
