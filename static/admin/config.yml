@@ -98,3 +98,21 @@ collections:
           - {label: "Paragraph 8 - Values" , name: "paragraph8", widget: "markdown"}
           - {label: "Heading 9 ", name: "heading9", widget: "string"}
           - {label: "Paragraph 9" , name: "paragraph9", widget: "markdown"}
+
+  - label: "Contact Page "
+    name: "Contact"
+    identifier_field: name
+    files:
+      - label: "Contact page details"
+        name: "highlight"
+        file: "src/content/contactData.json"
+        fields:
+          - {label: "Help Text", name: "helptext", widget: "string"}
+          - {label: "Carousel Image 1", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 2", name: "image2", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 3", name: "image3", widget: "image", default: "ghana.png"}
+          - {label: "Location information", name: "locationInfo", widget: "markdown"}
+          - {label: "Postal address information", name: "postalInfo", widget: "markdown"}
+          - {label: "Email information", name: "emailInfo", widget: "markdown"}
+          - {label: "Phone information ", name: "phoneInfo", widget: "markdown"}
+          - {label: "Careers information" , name: "careers", widget: "markdown"}
