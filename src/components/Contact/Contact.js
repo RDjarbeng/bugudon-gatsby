@@ -5,30 +5,31 @@ import {ContactData} from './ContactData';
 import ContactCards from './ContactCards';
 import Map from './Map';
 import ContactForm from './ContactForm';
+import data from '../../content/contactData.json'
+import ReactMarkdownWithHtml from "react-markdown/with-html";
 
 
 export default function Contact(){
     return(
       <React.Fragment>  
         <Carousels 
-          source1="/img/contact_1.png"
-          source2="/img/mining-440743_1280smaller.jpg"
-          source3="/img/paddle-wheel-1051962_1280smaller.png"
+          source1={data.image1}
+          source2={data.image2}
+          source3={data.image3}
         />
          <div className="container pt-3">
            <SectionTitle title="CONTACT US"/>
          </div>
          <div className="container text-center">
             <h4 className="font-weight-bold mb-0">Location:</h4>
-            <p style={{lineHeight:1.5}} className="mb-2"><strong>Postal Address:</strong> – P.O.Box GP 4107, Accra <br />
+            <p style={{lineHeight:1.5}} className="mb-2" id="contactInfo"><strong>Postal Address:</strong> – P.O.Box GP 4107, Accra <br />
                 <strong>Email:</strong> yehodamines@yahoo.com <br />
-                <strong>Call us:</strong> 233-20-8153899 233-2442760 <br />
+            <strong>Call us:</strong> {ContactData[3].info} <br />
             </p>
             <h4 className="font-weight-bold mb-0">Internship & Careers</h4>
-            <p className="mb-0" style={{lineeight:1.5}}>Presently, there are no employment opportunities. However, we believe
-                in working with brilliant minds seeking to support our company's objectives
-                and mission. Kindly send us your profile and contact details, and we will
-                reach you as and when opportunities arise. Thank you.</p>
+          <p className="mb-0" style={{ lineheight: 1.5 }}>
+            {<ReactMarkdownWithHtml children={data.careers} allowDangerousHtml />}
+            </p>
        </div>
 
        <div className="container mt-3">

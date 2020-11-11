@@ -4,6 +4,13 @@ body {
   line-height: 1.1;
 }
 
+/* contact page top styles */
+#contactinfo{
+  margin-bottom: 0;
+}
+#contactinfo, #contactInfo p{
+  margin-bottom: 0;
+}
 a {
   color: #fdb305;
 }

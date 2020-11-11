@@ -3,7 +3,6 @@ import React from 'react';
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 
 export default function Highlight({ style, heading, paragraph, color, data_aos }) {
-    console.log(paragraph);
     return(
         <div className="col-md-4 p-3">
             <div className=" shadow col h-100" style={style} data-aos={data_aos}> 

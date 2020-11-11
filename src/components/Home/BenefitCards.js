@@ -42,15 +42,6 @@ export default function BenefitCards() {
     }
   };
   
-  const options2 = {
-    replace: ({  children, name }) => {
-      //add the class to the ol
-      if (name === 'ol') {
-        return <ol className="pl-3 text-justify list-div pt-0 ">{domToReact(children, options)}</ol>;
-      }
-    }
-  };
-  console.log(parse(benefits.benefit1.html, options));
   return (
     <div className="row mt-2 mb-3">
       <div className="col-md-4 pl-0 pr-0">
