@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { graphql, useStaticQuery } from 'gatsby';
-import parse from 'html-react-parser';
+import parse, { domToReact }  from 'html-react-parser';
 
 export default function BenefitCards() {
   const benefits = useStaticQuery(graphql`
@@ -32,7 +32,25 @@ export default function BenefitCards() {
 }
 
   `)
-  // console.log(benefits.benefit1.frontmatter.title);
+
+  const options = {
+    replace: ({  children, name }) => {
+      //add the class to the ol
+      if (name === 'ol') {
+        return <ol className="pl-3 text-justify list-div pt-0 ">{domToReact(children, options)}</ol>;
+      }
+    }
+  };
+  
+  const options2 = {
+    replace: ({  children, name }) => {
+      //add the class to the ol
+      if (name === 'ol') {
+        return <ol className="pl-3 text-justify list-div pt-0 ">{domToReact(children, options)}</ol>;
+      }
+    }
+  };
+  console.log(parse(benefits.benefit1.html, options));
   return (
     <div className="row mt-2 mb-3">
       <div className="col-md-4 pl-0 pr-0">
@@ -65,7 +83,8 @@ export default function BenefitCards() {
                   <li>Proper management of the environmental issues associated with
                     mining under the supervision of the EPA.</li>
                 </ol> */}
-              {parse(benefits.benefit1.html)}
+              {parse(benefits.benefit1.html, options)}
+              
             </div>
 
           </div>
@@ -82,7 +101,7 @@ export default function BenefitCards() {
                 <li>Increase foreign direct investment into Ghana;</li>
                 <li>Increase foreign exchange reserves to support the local currency.</li>
               </ol> */}
-              {parse(benefits.benefit2.html)}
+              {parse(benefits.benefit2.html, options)}
             </div>
           </div>
         </div>
@@ -109,7 +128,7 @@ export default function BenefitCards() {
           <div className="card-body pl-2 pr-2 pt-0">
             <h5 className="card-title pt-0 text-center font-weight-bold mb-0">{benefits.benefit3.frontmatter.title}</h5>
             <div className="card-text mb-0">
-              {parse(benefits.benefit3.html)}
+              {parse(benefits.benefit3.html, options)}
             </div>
           </div>
         </div>

@@ -3,8 +3,6 @@ import SectionTitle from './SectionTitle';
 import Highlight from './Highlight';
 import { highlightData } from './HighligthtData';
 
-
-
 export default function CompanyHighlight(props){
     return(
         <section className = "bg-warning" id ="company-highlights" style={{borderTop: '2px solid black'}}>
