@@ -1,9 +1,9 @@
-# backend:
-  # name: git-gateway
-  # # repo: RDjarbeng/bugudon-gatsby
-  # branch: master # Branch to update (optional; defaults to master)
 backend:
-  name: test-repo
+  name: git-gateway
+  # repo: RDjarbeng/bugudon-gatsby
+  branch: master # Branch to update (optional; defaults to master)
+# backend:
+#   name: test-repo
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 public_folder: "/img"
 
