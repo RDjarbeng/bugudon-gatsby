@@ -7,10 +7,7 @@ import ContactHome from "../components/Contact/Contact";
 export default function Contact() {
     return (
         <Layout>
-            <div>
-                Welcome Home
          <ContactHome />
-            </div>
         </Layout>
     )
 

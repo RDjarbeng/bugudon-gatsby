@@ -22,22 +22,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-plugin-json-remark`,
-      options: {
-        paths: [
-          `${__dirname}/src`,
-        ], // Process all JSON files in these directories.
-        fieldNameBlacklist: [
-          "id",
-          "children",
-          "parent",
-          "fields",
-          "internal",
-          "path",
-          "template",
-        ],
-      },
-    },
   ],
 }

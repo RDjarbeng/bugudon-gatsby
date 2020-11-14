@@ -1,16 +1,13 @@
 import React from "react";
 import Layout from '../components/layout'
 // import App from "../components/App";
-import Home from "../components/Home/InvestorSection";
+import Home from "../components/Home/InvestorSection";//home for investor section
 
 // import 'react-bootstrap'
 export default function Investors() {
     return (
         <Layout>
-            <div>
-                Welcome Home
          <Home />
-            </div>
         </Layout>
     )
 

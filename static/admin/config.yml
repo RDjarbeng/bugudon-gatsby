@@ -1,9 +1,9 @@
-backend:
-  name: git-gateway
-  # repo: RDjarbeng/bugudon-gatsby
-  branch: master # Branch to update (optional; defaults to master)
 # backend:
-#   name: test-repo
+  # name: git-gateway
+  # # repo: RDjarbeng/bugudon-gatsby
+  # branch: master # Branch to update (optional; defaults to master)
+backend:
+  name: test-repo
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 public_folder: "/img"
 
@@ -116,3 +116,31 @@ collections:
           - {label: "Email information", name: "emailInfo", widget: "markdown"}
           - {label: "Phone information ", name: "phoneInfo", widget: "markdown"}
           - {label: "Careers information" , name: "careers", widget: "markdown"}
+
+  - label: "Company Page "
+    name: "Company"
+    identifier_field: name
+    files:
+      - label: "Company page details"
+        name: "Company content"
+        file: "src/content/companyData.json"
+        fields:
+          - {label: "Carousel Image 1", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 2", name: "image2", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 3", name: "image3", widget: "image", default: "ghana.png"}
+          - {label: "Story", name: "story", widget: "markdown"}
+          - {label: "Mission", name: "mision", widget: "markdown"}
+          - {label: "Values", name: "values", widget: "markdown"}
+          - {label: "Vision", name: "vision", widget: "markdown"}
+          - {label: "Leader Image 1 (CEO)", name: "leaderPic1", widget: "image"}
+          - {label: "Leader title 1(CEO) ", name: "leaderTitle1", widget: "string"}
+          - {label: "Leader Description 1(CEO)", name: "leaderContent1", widget: "markdown"}
+          - {label: "Leader Image 2 (Advisor)", name: "leaderPic2", widget: "image"}
+          - {label: "Leader title 2(Advisor) ", name: "leaderTitle2", widget: "string"}
+          - {label: "Leader Description 2(Advisor)", name: "leaderContent2", widget: "markdown"}
+          - {label: "Leader Image 3 (General Manager)", name: "leaderPic3", widget: "image"}
+          - {label: "Leader title 3(General Manager) ", name: "leaderTitle3", widget: "string"}
+          - {label: "Leader Description 3(General Manager)", name: "leaderContent3", widget: "markdown"}
+          - {label: "Leader Image 4 (Secretary)", name: "leaderPic4", widget: "image"}
+          - {label: "Leader title 4(Secretary) ", name: "leaderTitle", widget: "string"}
+          - {label: "Leader Description 4(Secretary)", name: "leaderContent4", widget: "markdown"}

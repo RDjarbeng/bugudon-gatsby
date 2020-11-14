@@ -7,10 +7,7 @@ import ProjectsHome from '../components/Projects/Projects';
 export default function Projects() {
     return (
         <Layout>
-            <div>
-                Welcome Home
          <ProjectsHome />
-            </div>
         </Layout>
     )
 

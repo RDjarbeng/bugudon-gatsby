@@ -7,10 +7,7 @@ import CompanyHome  from "../components/Portfolio/Company";
 export default function Company() {
     return (
         <Layout>
-            <div>
-                Welcome Home
          <CompanyHome />
-            </div>
         </Layout>
     )
 

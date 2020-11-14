@@ -7,9 +7,7 @@ import Home from "../components/Home/Home";
 export default function Index() {
   return (
     <Layout>
-      <div>
          <Home />
-      </div>
      </Layout>
   )
   
