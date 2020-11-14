@@ -18,7 +18,6 @@ module.exports = {
       options: {
         name: 'data',
         path: `${__dirname}/src/content`,
-        plugins: [`gatsby-plugin-json-remark`]
       },
     },
     `gatsby-plugin-netlify-cms`,
