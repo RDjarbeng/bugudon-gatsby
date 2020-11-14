@@ -129,7 +129,7 @@ collections:
           - {label: "Carousel Image 2", name: "image2", widget: "image", default: "ghana.png"}
           - {label: "Carousel Image 3", name: "image3", widget: "image", default: "ghana.png"}
           - {label: "Story", name: "story", widget: "markdown"}
-          - {label: "Mission", name: "mision", widget: "markdown"}
+          - {label: "Mission", name: "mission", widget: "markdown"}
           - {label: "Values", name: "values", widget: "markdown"}
           - {label: "Vision", name: "vision", widget: "markdown"}
           - {label: "Leader Image 1 (CEO)", name: "leaderPic1", widget: "image"}
