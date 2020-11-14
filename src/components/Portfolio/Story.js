@@ -16,7 +16,7 @@ export default function Story(props){
                 and Western Region of Ghana. */}
                 <ReactMarkdownWithHtml children={props.story} allowDangerousHtml />
             </div>
-            <p className="text-justify" style={{lineHeight:1.3,marginBottom:5}}>The company has three (3) large scale concession which it is seeking
+            {/* <p className="text-justify" style={{lineHeight:1.3,marginBottom:5}}>The company has three (3) large scale concession which it is seeking
             to work with investors to bring them to the exploitation:</p>
             <ol className="pl-0" style={{lineHeight:1.3,marginBottom:5}}>
                 <li>Bugudon Gold Mine - Awaham Project</li>
@@ -24,7 +24,7 @@ export default function Story(props){
                 <li>Wenof Gold Mine – Moseaso Project (under propecting – no proven reserves yet)</li>
             </ol>
             <p className="text-justify" style={{ lineHeight: 1.3, marginbottom: 10 }}>The total estimated gold reserve based on geological work done by the
-                company is 524,611 Ounces.</p>
+                company is 524,611 Ounces.</p> */}
         </div>
     );
 }
