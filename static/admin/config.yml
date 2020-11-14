@@ -142,5 +142,5 @@ collections:
           - {label: "Leader title 3(General Manager) ", name: "leaderTitle3", widget: "string"}
           - {label: "Leader Description 3(General Manager)", name: "leaderContent3", widget: "markdown"}
           - {label: "Leader Image 4 (Secretary)", name: "leaderPic4", widget: "image"}
-          - {label: "Leader title 4(Secretary) ", name: "leaderTitle", widget: "string"}
+          - {label: "Leader title 4(Secretary) ", name: "leaderTitle4", widget: "string"}
           - {label: "Leader Description 4(Secretary)", name: "leaderContent4", widget: "markdown"}

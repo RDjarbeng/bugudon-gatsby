@@ -1,6 +1,6 @@
 import React from 'react';
 import ReadMoreAndLess from 'react-read-more-less';
-import parse from 'html-react-parser';//to parse the html correctly, dangerouslySetInnerHtml was not working
+// import parse from 'html-react-parser';//to parse the html correctly, dangerouslySetInnerHtml was not working
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 
 
