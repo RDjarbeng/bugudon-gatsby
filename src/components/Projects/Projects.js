@@ -4,21 +4,34 @@ import SectionTitle from '../Home/SectionTitle';
 import Intro from './Intro';
 import Title from './Title';
 import CompleteImgDes from './CompleteImgDes';
+import data from '../../content/projectData.json'
+import ProjectDescrip from './ProjectDescrip';
 
-export default function Projects(){
+export default function Projects() {
     return(
       <main id="main">  
         <Carousels 
-          source1 = "/img/999-fineness-gold-bars-gold-wealth.jpg"
-          source2 = "/img/bullion-gold-gold-bars-golden-47047.jpg"
-          source3 = "/img/golden-3346988_1280.jpg"
+          source1 = {data.image1}
+          source2={data.image2}
+          source3={data.image3}
           />
         <div className="pt-2">
           <SectionTitle title="OUR PROJECTS"/>
         </div>  
-        <Intro />
+          <Intro content={data.intro} />
+        
         <Title text="BUGUDON LIMITED ASSOCIATED PROJECTS" />
-        <CompleteImgDes />
+        <CompleteImgDes
+          image1={data.projectImg1}
+          topic1={data.projectTopic1}
+          project1={data.projectDescription1}
+          image2={data.projectImg2}
+          topic2={data.projectTopic2}
+          project2={data.projectDescription2}
+          image3={data.projectImg3}
+          topic3={data.projectTopic3}
+          project3={data.projectDescription3}
+        />
         
         
       </main>   

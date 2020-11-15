@@ -4,6 +4,15 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 # backend:
 #   name: test-repo
+# when using the default proxy server port
+# local_backend: true
+
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8082/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ['192.168.0.1']
+
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 public_folder: "/img"
 
@@ -144,3 +153,25 @@ collections:
           - {label: "Leader Image 4 (Secretary)", name: "leaderPic4", widget: "image"}
           - {label: "Leader title 4(Secretary) ", name: "leaderTitle4", widget: "string"}
           - {label: "Leader Description 4(Secretary)", name: "leaderContent4", widget: "markdown"}
+
+  - label: "Projects Page "
+    name: "Projects"
+    identifier_field: name
+    files:
+      - label: "Project page details"
+        name: "Project content"
+        file: "src/content/projectData.json"
+        fields:
+          - {label: "Carousel Image 1", name: "image1", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 2", name: "image2", widget: "image", default: "ghana.png"}
+          - {label: "Carousel Image 3", name: "image3", widget: "image", default: "ghana.png"}
+          - {label: "Introduction", name: "intro", widget: "markdown"}
+          - {label: "Project Image 1", name: "projectImg1", widget: "image" }
+          - {label: "Project Topic 1 ", name: "projectTopic1", widget: "string"}
+          - {label: "Project Description 1", name: "projectDescription1", widget: "markdown"}
+          - {label: "Project Image 2", name: "projectImg2", widget: "image" }
+          - {label: "Project Topic 2 ", name: "projectTopic2", widget: "string"}
+          - {label: "Project Description 2", name: "projectDescription2", widget: "markdown"}
+          - {label: "Project Image 3", name: "projectImg3", widget: "image" }
+          - {label: "Project Topic 3 ", name: "projectTopic3", widget: "string"}
+          - {label: "Project Description 3", name: "projectDescription3", widget: "markdown"}

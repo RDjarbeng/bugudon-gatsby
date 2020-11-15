@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdownWithHtml from "react-markdown/with-html";
+
 
 export default function ProjectDescrip({img_src,topic,description}){
     return(
@@ -11,7 +13,8 @@ export default function ProjectDescrip({img_src,topic,description}){
           <div style={{backgroundColor:'black'}}>
              <h6 className="text-white pl-4 pt-2 pb-2" style={{borderLeft: '5px solid orange'}}>{topic}</h6>
           </div>
-             {description}
+            {/* {description} */}
+            {<ReactMarkdownWithHtml children={description} allowDangerousHtml />}
         </div>
       </div>
      </div> 

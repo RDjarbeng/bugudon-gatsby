@@ -8,7 +8,6 @@ import ContactForm from './ContactForm';
 import data from '../../content/contactData.json'
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 
-
 export default function Contact(){
     return(
       <React.Fragment>  

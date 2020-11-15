@@ -2,10 +2,25 @@ import React from 'react';
 import ProjectDescrip from './ProjectDescrip';
 
 
-export default function CompleteImgDes(){
+export default function CompleteImgDes(props){
     return(
       <React.Fragment>  
         <ProjectDescrip 
+          img_src={props.image1}
+            topic ={props.topic1}
+            description = {props.project1}
+        />
+        <ProjectDescrip
+          img_src={props.image2}
+          topic={props.topic2}
+          description={props.project2}
+        />
+        <ProjectDescrip
+          img_src={props.image3}
+          topic={props.topic3}
+          description={props.project3}
+        />
+        {/* <ProjectDescrip 
           img_src="/img/jonny-caspari-1je5j4aN2RI-unsplash.jpg"
             topic ="Bugudon Gold Mine - Awaham Project"
             description = {<React.Fragment><p className="text-justify" style={{lineHeight: 1.1}}>The proposed project
@@ -93,7 +108,7 @@ export default function CompleteImgDes(){
                     rock potential. We are open to loan investment finances on explorations joint partners.</p>
                 </React.Fragment>
             }
-        />
+        /> */}
       </React.Fragment>  
     );
 }
