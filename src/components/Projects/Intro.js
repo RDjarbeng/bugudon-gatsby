@@ -1,16 +1,7 @@
 import React from 'react';
-import Title from './Title';
-import {useEffect, useState} from 'react'
+import Title from './Title'
 
 export default function Intro(props) {
-  console.log(props.content);
-  const [intro, setIntro] = useState(props.content);
-
-  // Similar to componentDidMount and componentDidUpdate:
-  useEffect(() => {
-    // Update the document title using the browser API
-    setIntro(props.content)
-  });
     return(
     <React.Fragment>    
       <Title text="GOLD POTENTIAL OF GHANA" />  

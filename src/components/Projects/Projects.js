@@ -5,7 +5,6 @@ import Intro from './Intro';
 import Title from './Title';
 import CompleteImgDes from './CompleteImgDes';
 import data from '../../content/projectData.json'
-import ProjectDescrip from './ProjectDescrip';
 
 export default function Projects() {
     return(
