@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-Site is in development at 
-> http://hungry-elion-f6ef04.netlify.app/
+Site is live at 
+> https://bugudon-mining.netlify.app/
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
