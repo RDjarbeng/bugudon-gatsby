@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+/* remove padding for nav links when minimized */
+@media only screen and (max-width: 990px) {
+  .nav-menu a {
+    padding: 5px 0 5px 15px!important;
+  }
+}
